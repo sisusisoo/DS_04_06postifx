@@ -175,7 +175,7 @@ int main(void)
     while (1) {
         // 중위 표기식 입력
         printf("enter an postfix Exp :");
-        scanf_s("%s", expression, (int)sizeof(expression));
+        scanf_s("%s", expression, (int)sizeof(expression));//scanf_s이렇게안하면 오류남
         check_error(expression);
 
        
