@@ -104,7 +104,7 @@ void check_error(element exp[]) {
     for (int i = 0; i < len; i++) {
         if (i + 1 < len && exp[i] == '/' && exp[i + 1] == '0') {
             printf("<<error ¹ß»ý>>\n");
-            printf("infix_to_postfix error0: divide by 0\n\n");
+            printf("error0: divide by 0\n\n");
             err = 0;
             break;
         }
