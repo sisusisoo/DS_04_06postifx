@@ -154,7 +154,7 @@ void check_error(element exp[]) {
         }
     }
 
-    if (max_len >= 2) {
+    if (max_len >= 2) {//이부분고침 
         printf("<<error 발생>>\n");
         printf("error3: 한 자리수 이상의 입력 포함\n\n");
         err = 3;
