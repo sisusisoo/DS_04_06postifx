@@ -110,7 +110,7 @@ void check_error(element exp[]) {
         }
     }
 
-    int count = 0;
+
 
     for (int i = 0; i < len; i++) {
         if (exp[i] == '('|| exp[i] == ')') {
