@@ -95,16 +95,6 @@ int eval(char exp[]) {
     return pop(&s);
 }
 
-int prec(char op) {//연산자 우선순위 반환 
-
-    switch (op) {
-    case'(':case')':return 0;
-    case'+':case'-':return 1;
-    case'*':case'/':return 2;
-    }
-    return -1;
-
-}
 
 void check_error(element exp[]) {
     err = -1;
