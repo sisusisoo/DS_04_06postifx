@@ -153,6 +153,12 @@ void check_error(element exp[]) {
             count_len = 0;
         }
     }
+
+    if (max_len >= 2) {
+        printf("<<error 발생>>\n");
+        printf("error3: 한 자리수 이상의 입력 포함\n\n");
+        err = 3;
+    }
    
 }
 
